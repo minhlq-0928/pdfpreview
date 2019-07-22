@@ -1,0 +1,24 @@
+:focus {
+  outline: none;
+}
+
+.react-pdf__Document {
+  text-align: center;
+}
+
+.dropzone-section {
+  border: 2px dashed #bbb;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 50px 100px;
+  text-align: center;
+  cursor: pointer;
+
+  input:focus {
+    outline: none;
+  }
+}
+
+.react-pdf__Document canvas {
+  margin: auto;
+}
